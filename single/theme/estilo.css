@@ -1,0 +1,22 @@
+.btn-circle{
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.btn-circle:focus{
+  outline: none;
+}
+.btn-scale{
+  transform: scale(0.8);
+}
+.align-topo{
+  margin-top: 1em;
+}
+.btn-circle span{
+  font-size: 1.5em;
+  margin-top: 27%;
+}
+.ativo,.ativo:focus,.ativo:active{
+  background: #45739a !important;
+}
